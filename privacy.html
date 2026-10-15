@@ -12,7 +12,7 @@
   }
   .wrap { max-width: 720px; margin: 0 auto; padding: 56px 24px 80px; }
   h1 { font-size: 30px; letter-spacing: -.5px; margin: 0 0 4px; }
-  .updated { color: #6b7488; font-size: 14px; margin-bottom: 36px; }
+  .updated { color: #8a93a8; font-size: 14px; margin-bottom: 36px; }
   h2 { font-size: 20px; margin: 36px 0 10px; color: #cfd6e6; }
   p, li { color: #b9c0d2; }
   a { color: #6ea8fe; }
@@ -24,24 +24,48 @@
   <div class="wrap">
     <a class="back" href="./index.html">&larr; Checkers</a>
     <h1>Privacy Policy</h1>
-    <div class="updated">Last updated: 19 June 2026</div>
+    <div class="updated">Last updated: 15 October 2026</div>
 
-    <p>Checkers (&ldquo;the app&rdquo;) is designed to respect your privacy.</p>
+    <h2>Summary</h2>
+    <p>Games against the computer, puzzles, lessons and Pass &amp; Play run on your device. The app connects to our servers for online play, and from version 2.2 it can send anonymous usage statistics through Google Analytics for Firebase, which you can switch off. Checkers shows <strong>no ads</strong>, does not use the Advertising Identifier (IDFA) or App Tracking Transparency, and does not track you across other companies&rsquo; apps or websites. We never sell data.</p>
 
-    <h2>Data we collect</h2>
-    <p><strong>None.</strong> The app does not collect, store, or transmit any personal data. It has no analytics, no advertising, and no third-party tracking SDKs.</p>
+    <h2>Stored on your device</h2>
+    <p>Your profile name, avatar, country, settings, game history, rating against the computer, statistics, and puzzle and lesson progress are stored on your device. They are removed when you delete the app.</p>
 
-    <h2>Data stored on your device</h2>
-    <p>Your settings, profile name, chosen avatar, game history, rating and statistics are stored <strong>only on your device</strong> (in local storage and the app&rsquo;s own files). This information is never sent to us or to anyone else, and is removed if you delete the app.</p>
+    <h2>Online play</h2>
+    <p>When the app starts, it prepares online play and match recovery by creating an <strong>anonymous player ID</strong> with our authentication provider. When you play online we process:</p>
+    <ul>
+      <li>your anonymous player ID;</li>
+      <li>your display name or @username, which your opponent sees;</li>
+      <li>your online rating and win/draw/loss record;</li>
+      <li>your IP address while you are connected;</li>
+      <li>the moves of your online games, which are stored so a game can be resumed after a disconnect and its result kept.</li>
+    </ul>
+    <p>There is no chat. You can report or block an opponent from the game menu.</p>
 
-    <h2>Network use</h2>
-    <p>The app works fully offline. The only network communication is with <strong>Apple&rsquo;s App Store</strong> when you make an optional in-app purchase (take-backs or hints). Those purchases are processed entirely by Apple under Apple&rsquo;s Privacy Policy; we never see or receive your payment details.</p>
+    <h2>Sign in with Apple (optional)</h2>
+    <p>Signing in is needed only for Ranked games and a permanent @username. Apple may share your email address, or a private relay address, with our authentication provider. You can delete your online account in Play Online &rarr; Account; this removes your player profile, ratings and online games. To have the sign-in record itself removed as well, email us at the address below.</p>
+
+    <h2>Anonymous usage statistics (version 2.2 and later)</h2>
+    <p>When <strong>Share anonymous usage data</strong> is on (Settings), the app sends events such as &ldquo;game finished&rdquo;, &ldquo;puzzle solved&rdquo; or &ldquo;Coach screen closed&rdquo;. Each event carries coarse values only: the rule variant, the bot level, a time range, which button was tapped. Google adds a random per-install identifier, an approximate region and the device type. We never send your name, username, photo, country, moves or anything you type, and we never link these statistics to your online account. They are kept for up to 14 months. Switching the setting off stops further collection.</p>
+    <p>In the European Union and European Economic Area, the United Kingdom, Switzerland and Russia, the setting starts <strong>off</strong> until you allow it. Elsewhere it starts on, and you can switch it off at any time.</p>
+
+    <h2>Purchases</h2>
+    <p>The Checkers Coach subscription and the take-back and hint packs are sold by Apple through the App Store. Apple processes the payment under its own privacy policy; we never see or receive your payment details.</p>
+
+    <h2>Service providers</h2>
+    <ul>
+      <li><strong>Supabase</strong> &mdash; authentication and database (Ireland).</li>
+      <li><strong>Oracle Cloud Infrastructure</strong> &mdash; game server (Frankfurt, Germany).</li>
+      <li><strong>Google</strong> &mdash; Firebase / Google Analytics, for anonymous usage statistics only.</li>
+      <li><strong>Apple</strong> &mdash; purchases (StoreKit) and Sign in with Apple.</li>
+    </ul>
 
     <h2>Children</h2>
-    <p>The app does not collect any data and is suitable for all ages.</p>
+    <p>Checkers is suitable for all ages. It has no ads and no tracking, and usage statistics are anonymous.</p>
 
     <h2>Contact</h2>
-    <p>Questions about this policy: <a href="mailto:dakopan1@gmail.com">dakopan1@gmail.com</a></p>
+    <p>Questions about this policy or a deletion request: <a href="mailto:dakopan1@gmail.com">dakopan1@gmail.com</a></p>
   </div>
 </body>
 </html>
